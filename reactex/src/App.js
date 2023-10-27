@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+function Header(){
+  return <h1 align="center" >Hello world.....</h1>
+ 
+}
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ return (
+ <><div>
+ <Header></Header>
+  <hr></hr>
+  <h1 align="center">I come from creating a react channel</h1>
+  <h2 align="center">I come from creating a react Elements</h2>
+  </div>
+  </>
+ )
 }
 
 export default App;
