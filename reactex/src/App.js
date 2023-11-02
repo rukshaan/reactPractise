@@ -1,18 +1,21 @@
+import ReactDom from 'react-dom';
 import React from 'react';
-function Header(){
-  return <h1 align="center" >Hello world.....</h1>
- 
-}
+import './App.css';
+import Header from './components/Header';
+//import Footer from './components/Footer';
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
+
 function App() {
  return (
- <><div>
- <Header></Header>
-  <hr></hr>
-  <h1 align="center">I come from creating a react channel</h1>
-  <h2 align="center">I come from creating a react Elements</h2>
+ <>
+  <Header name="ruka" color="vilot"></Header>
+  <div>
+    <Main greet="Howdy"></Main>
+    <Sidebar greet="Hello"></Sidebar>
   </div>
   </>
- )
+ );
 }
 
 export default App;

@@ -21,8 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: gray;
-  font-size: 42px;
+  color: white;
 }
 
 .App-link {
